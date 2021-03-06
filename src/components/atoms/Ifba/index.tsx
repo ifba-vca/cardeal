@@ -1,22 +1,11 @@
 
 import React from 'react';
 import {Container,Line,Square,Circle} from './styles';
+import {IfbaProps,IfbaSize} from '../../../interfaces/components/atoms'
 
-export interface Props {
-    width?: number | null;
-    cColor?: String | null;
-    sColor?: String | null;
-  }
-interface Size {
-    width?: number;
-    height?: number;
-    square?: number;
-    margin?: number;
-  }
-
-const Index: React.FC<Props> = props => {
+const Index: React.FC<IfbaProps> = props => {
         const temp: number = props.width? props.width : 40;
-        const size: Size = {
+        const size: IfbaSize = {
             width: temp,
             height: temp * 1.3,
             square: (temp/3) - (temp * 0.02),

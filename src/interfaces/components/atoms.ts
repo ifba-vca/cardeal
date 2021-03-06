@@ -27,3 +27,25 @@ export interface Course {
   name?: String | null;
   semesters?:Array<Semester> | null;
 }
+
+export interface IfbaProps {
+  width?: number | null;
+  cColor?: String | null;
+  sColor?: String | null;
+}
+export interface IfbaSize {
+  width?: number;
+  height?: number;
+  square?: number;
+  margin?: number;
+}
+
+
+export interface IfbaLogoProps {
+  logoSize?: number | null;
+  textSize?: number | null;
+  circleColor?: String | null;
+  squareColor?: String | null;
+  primaryColor?: String | null;
+  secondaryColor?: String | null;
+}

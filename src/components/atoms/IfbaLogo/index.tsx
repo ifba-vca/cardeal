@@ -2,17 +2,9 @@
 import React from 'react';
 import {Container,Text,TextPrimary,TextSecondary} from './styles';
 import Ifba from '../Ifba';
+import{IfbaLogoProps} from '../../../interfaces/components/atoms'
 
-export interface Props {
-    logoSize?: number | null;
-    textSize?: number | null;
-    circleColor?: String | null;
-    squareColor?: String | null;
-    primaryColor?: String | null;
-    secondaryColor?: String | null;
-  }
-
-const Index: React.FC<Props> = props => {
+const Index: React.FC<IfbaLogoProps> = props => {
       return (
         <>
             <Container>
