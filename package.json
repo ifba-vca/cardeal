@@ -19,11 +19,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "yarn build-storybook -o ./build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 --no-manager-cache -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "chromatic --project-token CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +54,7 @@
     "@storybook/react": "^6.1.21",
     "@storybook/theming": "^6.1.21",
     "@types/styled-components": "^5.1.7",
+    "chromatic": "^5.6.3",
     "storybook-addon-styled-component-theme": "^1.3.0"
   }
 }
