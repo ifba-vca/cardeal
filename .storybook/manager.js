@@ -1,8 +1,6 @@
-// .storybook/manager.js
-
 import { addons } from '@storybook/addons';
-import { themes } from '@storybook/theming';
+import Cardeal from './Cardeal';
 
 addons.setConfig({
-  theme: themes.dark,
+  theme: Cardeal,
 });
