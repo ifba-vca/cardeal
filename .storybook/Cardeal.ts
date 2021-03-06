@@ -4,7 +4,7 @@ import logo from '../src/util/png/logo.png';
 export default create({
   base: 'dark',
   brandTitle: 'Cardeal',
-  brandUrl: 'https://example.com',
+  brandUrl: 'https://6043982593060a002199607d-jrbdzcvfrz.chromatic.com',
   brandImage: logo,
 
   // UI
