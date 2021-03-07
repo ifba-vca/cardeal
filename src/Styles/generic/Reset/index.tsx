@@ -66,6 +66,13 @@ table {
 html *{
 	transition: .1s;
 }
+
+.css-1mpwhna tr {
+    background: #4A4E55 !important;
+}
+.css-1mpwhna tr:nth-of-type(2n) {
+    background: #4A4E55 !important;
+}
 `;
 
 export default Reset;
