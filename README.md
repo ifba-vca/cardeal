@@ -1,4 +1,5 @@
-[![cardeal](https://user-images.githubusercontent.com/13178261/110225599-ddd03900-7ec5-11eb-8bc5-ff17a8b8db6b.png)](https://main--6043982593060a002199607d.chromatic.com)
+[![site](https://img.shields.io/badge/official-site-blue)](https://main--6043982593060a002199607d.chromatic.com) 
+[![toplanguage](https://img.shields.io/github/languages/top/IFBA-VCA/cardeal)](https://github.com/IFBA-VCA/cardeal/search?l=typescript)
 
 
-[StoryBook](https://6043982593060a002199607d-jrbdzcvfrz.chromatic.com/)
+[![cardeal](https://user-images.githubusercontent.com/13178261/110239671-de4cec00-7f26-11eb-85f2-f2adfaae779f.png)](https://main--6043982593060a002199607d.chromatic.com)
